@@ -148,4 +148,4 @@ That’s it, folks. I hope you enjoyed the article. Thanks for reading!
 
 <hr>
 
-Something missing or you still find it confusing? Write me a [mail](mailto:wibbeke.andre@gmail.com)!
+Something missing or you still find it confusing? **Leave a comment below!**

@@ -3,11 +3,5 @@
 exports[`Author renders correctly 1`] = `
 <div
   className="author"
->
-  <p
-    className="author__bio"
-  >
-    Test bio
-  </p>
-</div>
+/>
 `;
