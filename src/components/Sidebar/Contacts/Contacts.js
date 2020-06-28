@@ -13,6 +13,7 @@ type Props = {
 const Contacts = ({ contacts }: Props) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
+      {console.log(contacts)}
       {Object.keys(contacts).map((name) => (!contacts[name] ? null : (
         <li className={styles['contacts__list-item']} key={name}>
           <a
