@@ -36,10 +36,13 @@ You can skip it since the Tag Manager plugin already takes care of creating and 
 
 For this guide, I'm assuming that you've already created and deployed a Gatsby site. In case you haven't, you can get easily started with one of [Gatsby's Starters](https://www.gatsbyjs.org/starters/?v=2).
 
-1. Open up the Command Line and type in the following, depending on what package manager you prefer:
+1. Open up the Command Line and type in either of the following, depending on what package manager you prefer:
 
-    - `npm install --save gatsby-plugin-google-tagmanager` **or**
-    - `yarn add gatsby-plugin-google-tagmanager`
+```
+npm install --save gatsby-plugin-google-tagmanager
+
+yarn add gatsby-plugin-google-tagmanager
+```
 
 2. Open your gatsby-config.js file on your local machine and paste in the following snippet at the top of your plugins array:
 
