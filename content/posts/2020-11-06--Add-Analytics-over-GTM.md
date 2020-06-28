@@ -9,7 +9,7 @@ tags:
     - "Google Tag Manager"
     - "Google Analytics"
     - "Gatsby"
-description: "Explains Google Tag Manager and Analytics implementation in Gatsby."
+description: "Explains how to implement Google Analytics over Google Tag Manager in Gatsby."
 socialImage: "/media/setup-tagmanager/social-image.jpg"
 ---
 
