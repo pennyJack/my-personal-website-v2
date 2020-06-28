@@ -6,7 +6,7 @@ module.exports = {
   title: 'André Wibbeke | Personal Website and Blog',
   subtitle: 'I help create brands that people love.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'https-andre-wibbeke-dev',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-168089121-1',
   useKatex: false,
