@@ -9,18 +9,19 @@ tags:
     - "Google Tag Manager"
     - "Google Analytics"
     - "Gatsby"
-description: "Explains Google Tag Manager and Analytics implementation in Gatsby."
+description: "Explains how to implement Google Analytics over Google Tag Manager in Gatsby."
 socialImage: "/media/setup-tagmanager/social-image.jpg"
 ---
 
-In general, there are two ways to add Google Analytics to your Gatsby site:
+In general, there are three ways to add Google Analytics to your Gatsby site:
 
-1. Install the [Google Analytics Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/?=analy).
-2. Install the [Google Tag Manager Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-google-tagmanager/) and add an Analytics Tag in Google Tag Manager.
+1. Install and configure the [Google Analytics Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/?=analy).
+2. Install and configure the [Google Global Site Tag Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-google-gtag/).
+3. Install the [Google Tag Manager Gatsby plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-google-tagmanager/) and add an Analytics Tag in Google Tag Manager.
 
-For this website, I decided to go with the second option because I want to add some other tags later on anyway.
+For this website, I decided to go with the third option because I might want to add some non-Google tags later on.
 
-However, I didn’t find the integration to be as straightforward as the first option, which is why I wrote a short post outlining the exact steps to be taken for the minimal default setup, to get you started as quickly as possible.
+However, I didn’t find the integration to be as straightforward as the first and second option, which is why I wrote a short post outlining the exact steps to be taken for the minimal default setup, to get you started as quickly as possible.
 
 Note, that you could also install the Google Tag Manager plugin AND install Google Analytics via the dedicated analytics plugin. I just don’t see any meaningful reason (yet) to do that. It feels redundant and I prefer to have all my tags in one place. Let me know if you think differently.
 
