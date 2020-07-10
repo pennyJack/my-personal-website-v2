@@ -26,6 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'André Wibbeke',
+    tagline: 'Data-Driven Marketing',
     photo: '/me_squared.jpg',
     bio: 'I\'m an analytics developer and digital advertising specialist with over two years '
       + 'of experience in Programmatic Advertising.',

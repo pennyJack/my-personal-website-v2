@@ -35,6 +35,11 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
           </a>
         </h2>
         <p
+          className="author__tagline"
+        >
+          TEST TAGLINE
+        </p>
+        <p
           className="author__subtitle"
         >
           Test bio

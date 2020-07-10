@@ -26,6 +26,11 @@ exports[`Author renders correctly 1`] = `
     </a>
   </h2>
   <p
+    className="author__tagline"
+  >
+    TEST
+  </p>
+  <p
     className="author__subtitle"
   >
     test
