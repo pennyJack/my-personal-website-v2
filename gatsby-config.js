@@ -139,13 +139,11 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
-      },
+        id: siteConfig.gtmId,
+        includeInDevelopment: false,
+      }
     },
     {
       resolve: 'gatsby-plugin-sitemap',

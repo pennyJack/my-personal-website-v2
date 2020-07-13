@@ -8,7 +8,8 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: 'https-andre-wibbeke-dev',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-168089121-1',
+  googleAnalyticsId: '',
+  gtmId: 'GTM-TJ3KPTB',
   useKatex: false,
   menu: [
     {
