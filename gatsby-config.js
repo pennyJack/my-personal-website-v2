@@ -142,7 +142,10 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: siteConfig.gtmId,
-        includeInDevelopment: false,
+        includeInDevelopment: true,
+        // Specify optional GTM environment details.
+        gtmAuth: siteConfig.gtmAuth,
+        gtmPreview: siteConfig.gtmPreview,
       }
     },
     {

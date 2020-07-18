@@ -10,6 +10,8 @@ module.exports = {
   postsPerPage: 4,
   googleAnalyticsId: '',
   gtmId: 'GTM-TJ3KPTB',
+  gtmAuth: 'l84rtWF1tKMdKrLRN_4e5A',
+  gtmPreview: 'env-16',
   useKatex: false,
   menu: [
     {
