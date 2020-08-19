@@ -39,7 +39,7 @@ module.exports = {
       facebook: '',
       telegram: '',
       twitter: '',
-      github: '',
+      github: 'andreWibbeke',
       rss: '',
       vkontakte: '',
       linkedin: 'andré-wibbeke-aa76a4138/',
