@@ -110,7 +110,7 @@ Now, I recommend to copy the _gatsby-route-change_ trigger (the original trigger
 
 [![Adapt trigger](/media/cmp-setup-spa/gatsby-route-change_trigger_notOnFirstLoad.jpg)](/media/cmp-setup-spa/gatsby-route-change_trigger_notOnFirstLoad.jpg)
 
-Be aware that this workaround leaves one edge case uncovered: we don't collect the page views that occur, before the _gtm.load_ event took place. I think it is improbable that a user navigates to the next page, right after arriving on the landing page. However, if he does, we don't register it in Google Analytics.
+Be aware that this workaround leaves one edge case uncovered: we don't collect the page views that occur, before the _gtm.load_ event took place. I think it is improbable that a user navigates to the next page, right after arriving on the landing page. However, if he does, we might not register it in Google Analytics.
 
 Finally, don't forget to assign the modified trigger (here: _gatsby-route-change - notOnFirstLoad_) to the custom HTML tag.
 
@@ -134,14 +134,6 @@ Your GTM container's _Workspace Changes_ should now look somewhat familiar to th
 
 Don't forget to test every case a user might encounter while engaging with your website. It might take some time, but it's better to be safe than sorry.
 
-**Pro Tip**: use the website check on the [Cookiebot homepage](https://www.cookiebot.com/en/) to validate your setup.
-
-[![Cookiebot Website Check](/media/cmp-setup-spa/cookiebot_website_check.jpg)](/media/cmp-setup-spa/cookiebot_website_check.jpg)
-
-<!--
-For your convenience, I've exported the container settings for you to import it in your GTM account easily. While I've tested the setup myself, I can't guarantee that it works under every circumstance. You always need to make a test run yourself!
- -->
-
 ## Summary
 
 The manual implementation for a SPA may seem a little daunting at first. Nevertheless, I hope to have shed some light on how you can do a sound installation yourself with Cookiebot.
@@ -153,7 +145,3 @@ That’s it, folks. I hope you enjoyed the article. Thanks for reading!
 <hr>
 
 Something missing, or you still find it confusing? **Leave a comment below!**
-
-<!-- put into the author component
-Want some help with your custom Consent Manager implementation? **Get in touch!**
--->
