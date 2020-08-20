@@ -114,15 +114,17 @@ Be aware that this workaround leaves one edge case uncovered: we don't collect t
 
 Finally, don't forget to assign the modified trigger (here: _gatsby-route-change - notOnFirstLoad_) to the custom HTML tag.
 
-## Heads-Up
+## Alternative implementation using the History change trigger
 
-Technically, it's possible to use the baked-in _History Change_ trigger type, instead of a custom event like _gatsby-route-change_, since both listen to events emitted by the [_History API_](https://developer.mozilla.org/en-US/docs/Web/API/History_API).
+It's possible to use the baked-in [_History change_](https://support.google.com/tagmanager/answer/7679322?hl=en) trigger type instead of the custom _gatsby-route-change - notOnFirstLoad_ trigger. Both triggers are only invoked when the URL changes after the initial page load.
 
-However, you might also use the _History API_ to add [_fragments_](https://stackoverflow.com/questions/30997420/what-are-fragment-urls-and-why-to-use-them) or replace URL entries.
+The advantage is less setup work. You don't have to ensure that your website pushes a custom event like _'url-change'_ to the data layer, nor do you have to create the custom JavaScript variable from above.
 
-In that case, it would push a _gtm.historyChange_ event to the data layer and, if applied to the GA tag, accidentally trigger a pageview hit. You need to control for these possibilities, which makes it prone to errors.
+However, the _History change_ trigger is also activated when your source code adds [_fragments_](https://stackoverflow.com/questions/30997420/what-are-fragment-urls-and-why-to-use-them) or replaces URL entries (by manipulating the [_History API_](https://developer.mozilla.org/en-US/docs/Web/API/History_API)).
 
-Hence, I generally recommend implementing a data layer push of a custom event like _gatsby-route-change_ into your website or app. If your site is still small and you don't have the resources needed, this workaround might be worth looking into nonetheless.
+Say, someone clicks on a link and is brought to a section further down the same page, which is indicated by adding a hash sign to the end of the URL (e.g., example.com/interesting-article**#some-section**). It would push a _gtm.historyChange_ event to the data layer and, if we applied the History change trigger to our custom HTML, fire a GA pageview hit. That might not be what you want.
+
+Hence, I generally recommend implementing a data layer push of a custom event like _url-change_ into your website or app. If your site is still small and you don't have the resources needed, this workaround might be worth looking into nonetheless.
 
 ## Verify correct setup
 
