@@ -32,7 +32,7 @@ module.exports = {
     name: 'André Wibbeke',
     tagline: 'Data-Driven Marketing',
     photo: '/me_squared.jpg',
-    bio: 'I\'m a JavaScript developer and digital advertising specialist with over two years '
+    bio: 'I\'m a Marketing developer and digital advertising specialist with over two years '
       + 'of experience in Programmatic Advertising.',
     contacts: {
       email: 'wibbeke.andre@gmail.com',
