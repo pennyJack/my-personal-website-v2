@@ -3,6 +3,7 @@
 
 .author {
   border-top: 1px solid $color-gray-border;
+  border-bottom: 1px solid $color-gray-border;
   max-width: $layout-post-width;
   padding-top: 20px;
   @include line-height(1);
@@ -13,7 +14,6 @@
     text-align: center;
     &-twitter {
       display: block;
-      text-decoration: underline;
     }
   }
 }

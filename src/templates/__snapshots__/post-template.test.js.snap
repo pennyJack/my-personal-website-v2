@@ -75,9 +75,6 @@ exports[`PostTemplate renders correctly 1`] = `
           </li>
         </ul>
       </div>
-      <div
-        className="author"
-      />
     </div>
     <div
       className="post__comments"

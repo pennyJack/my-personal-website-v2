@@ -1,15 +1,15 @@
 // @flow strict
 import React from 'react';
-// import { getContactHref } from '../../../utils';
+import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
-// import { useSiteMetadata } from '../../../hooks';
+import { useSiteMetadata } from '../../../hooks';
 
 const Author = () => {
-  // const { author } = useSiteMetadata();
+  const { author } = useSiteMetadata();
 
   return (
     <div className={styles['author']}>
-      {/* <p className={styles['author__bio']}>
+      <p className={styles['author__bio']}>
         {author.bio}
         <a
           className={styles['author__bio-twitter']}
@@ -17,9 +17,9 @@ const Author = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>{author.name}</strong> on Twitter
+          <p><strong>{author.name}</strong> on Twitter</p>
         </a>
-      </p> */}
+      </p>
     </div>
   );
 };
