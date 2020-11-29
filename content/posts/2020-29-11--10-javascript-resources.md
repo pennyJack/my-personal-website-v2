@@ -32,7 +32,7 @@ Learning to code on your own can be challenging, especially if you get stuck on 
 
 ## Treehouse (beginner-friendly, paid)
 
-Treehouse is another popular platform, pretty similar to Codecademy. I haven’t used it myself but heard many good things about it over the years. Let me know what you think in the comments.
+[Treehouse](https://teamtreehouse.com/) is another popular platform, pretty similar to Codecademy. I haven’t used it myself but heard many good things about it over the years. Let me know what you think in the comments.
 
 ## Head First JavaScript Programming: A Brain-Friendly Guide (beginner-friendly, paid)
 
