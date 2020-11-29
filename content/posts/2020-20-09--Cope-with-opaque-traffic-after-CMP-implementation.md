@@ -1,16 +1,16 @@
 ---
-title: Four ways how to handle opaque traffic after installing a Consent Manager
-date: "2020-09-23T06:34:25.000Z"
-template: "post"
+title: 4 ways how to handle opaque traffic after installing a Consent Manager
+date: '2020-09-23T06:34:25.000Z'
+template: 'post'
 draft: false
-slug: "four-ways-how-to-handle-opaque-traffic-after-installing-a-consent-manager"
-category: "Consent Management"
+slug: 'four-ways-how-to-handle-opaque-traffic-after-installing-a-consent-manager'
+category: 'Consent Management'
 tags:
-    - "Consent Management"
-    - "Consent Manager"
-    - "Tracking"
-description: "Explores different options on how to handle the data drop after implementing a Consent Management system."
-socialImage: "/media/handle-opaque-traffic/hong-kong_traffic.jpg"
+  - 'Consent Management'
+  - 'Consent Manager'
+  - 'Tracking'
+description: 'Explores different options on how to handle the data drop after implementing a Consent Management system.'
+socialImage: '/media/handle-opaque-traffic/hong-kong_traffic.jpg'
 ---
 
 [![Traffic in Hong Kong by night](/media/handle-opaque-traffic/hong-kong_traffic.jpg)](/media/handle-opaque-traffic/hong-kong_traffic.jpg)
