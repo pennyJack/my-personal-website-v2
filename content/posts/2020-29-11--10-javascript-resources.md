@@ -70,7 +70,7 @@ Lastly, two resources help me almost every day: the [Mozilla Developer Network](
 
 That’s it, folks. I hope you enjoyed the article. Thanks for reading!
 
-In case you liked the article and want to read more about it, give me a thumbs up in the comment section below.
+In case you liked the article and want to read more about it, give me a **thumbs up** in the comment section below.
 
 <hr>
 
