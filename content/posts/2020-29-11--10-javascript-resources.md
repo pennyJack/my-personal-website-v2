@@ -30,9 +30,9 @@ Learning to code on your own can be challenging, especially if you get stuck on 
 
 [Codecademy](https://www.codecademy.com/) was one of the first interactive tools I used to learn to code. Essentially, it’s the same as freeCodeCamp but paid. Codecademy offers a broader scope of programming languages. I haven’t used it for a long time but heard that the content is still excellent and affordable. It feels a little more guided than freeCodeCamp. Yet, it's valuable to learn early on how to figure out things on your own.
 
-## TreeHouse (beginner-friendly, paid)
+## Treehouse (beginner-friendly, paid)
 
-TreeHouse is another popular platform, pretty similar to Codecademy. I haven’t used it myself but heard many good things about it over the years. Let me know what you think in the comments.
+Treehouse is another popular platform, pretty similar to Codecademy. I haven’t used it myself but heard many good things about it over the years. Let me know what you think in the comments.
 
 ## Head First JavaScript Programming: A Brain-Friendly Guide (beginner-friendly, paid)
 
