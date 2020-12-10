@@ -105,7 +105,7 @@ More and more companies are willing to invest a larger portion of their budget i
 
 There are dozens of options, most of which are pretty decent choices. It’s mostly just a matter of personal taste and learning style. [Codecademy](https://www.codecademy.com/catalog/language/javascript) (paid) and [freeCodeCamp](https://www.freecodecamp.org/) (free) are two options I can wholeheartedly recommend.
 
-For more resources, check out my article about my top [10 coding resources every digital marketer should know](ten-coding-resources-every-digital-marketer-should-know).
+For more resources, check out my article about my top [10 essential JavaScript learning resources every technical Marketer should know](ten-essential-javascript-learning-resources-every-technical-marketer-should-know).
 
 That’s it, folks. I hope you enjoyed the article. Thanks for reading!
 
