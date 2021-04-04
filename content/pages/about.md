@@ -32,8 +32,8 @@ I think it’s an essential and necessary step in the evolution of digital marke
 
 ##What else is there to know about you?
 
-It’s helpful to learn about the web and get acquainted with its primary technologies, namely HTML, CCS, and JavaScript, in case you want to know how marketing and advertising systems work.
+It’s essential to learn about the web and get acquainted with its primary technologies, namely HTML, CCS, and JavaScript, in case you want to know how marketing and advertising systems work.
 
 To get a better understanding, I decided to spend some of my spare time working on my web development skills. For instance, I build this website using modern front-end technologies, like [ReactJS](https://reactjs.org/) and [GatesbyJS](https://www.gatsbyjs.org/).
 
-I’m also hosting a [bi-weekly Meetup](https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/) in Düsseldorf for people who are interested in learning about web development with JavaScript. It helps to grasp things better and enables you to be creative and build a great many things.
+I’m also hosting a [monthly Meetup](https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/) in Düsseldorf for people who are interested in learning about web development with JavaScript.
