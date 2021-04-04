@@ -35,8 +35,8 @@ module.exports = {
     tagline: 'Data-Driven Marketing',
     photo: '/me_squared.jpg',
     bio:
-    'I\'m a marketing developer and digital advertising specialist with over three years ' +
-    'of experience in Programmatic Advertising.',
+    'I\'m a marketing developer and digital advertising specialist with over three years '
+    + 'of experience in Programmatic Advertising.',
     contacts: {
       email: 'info@andre-wibbeke.de',
       facebook: '',
